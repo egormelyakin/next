@@ -1,0 +1,27 @@
+{
+  "tab_size": 2,
+  "format_on_save": "on",
+
+  "prettier": { "allowed": false },
+  "formatter": { "language_server": { "name": "oxfmt" } },
+  "code_actions_on_format": { "source.fixAll": true },
+
+  "lsp": {
+    "typescript-language-server": { "binary": { "path": "bun", "arguments": ["tsc", "--lsp", "--stdio"] } },
+    "oxfmt": { "binary": { "path": "bun", "arguments": ["oxfmt", "--lsp"] } },
+    "oxlint": { "binary": { "path": "bun", "arguments": ["oxlint", "--lsp"] } },
+    "vscode-css-language-server": { "settings": { "css": { "lint": { "unknownAtRules": "ignore" } } } },
+    "tailwindcss-language-server": { "settings": { "classFunctions": ["cn"] } }
+  },
+
+  "languages": {
+    "TypeScript": { "language_servers": ["typescript-language-server", "oxlint", "oxfmt"] },
+    "JavaScript": { "language_servers": ["typescript-language-server", "oxlint", "oxfmt"] },
+    "TSX": { "language_servers": ["typescript-language-server", "oxlint", "oxfmt", "tailwindcss-language-server"] },
+
+    "JSON": { "language_servers": ["json-language-server", "oxfmt"] },
+    "CSS": { "language_servers": ["vscode-css-language-server", "oxfmt"] },
+
+    "Markdown": { "language_servers": ["oxfmt"] }
+  }
+}

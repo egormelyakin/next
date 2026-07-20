@@ -1,0 +1,29 @@
+# Next.js
+node_modules
+.next
+
+*.d.ts
+*.tsbuildinfo
+
+# AI tools misc files
+.claude/
+.cursor/
+.copilot/
+.windsurf/
+.codex/
+.agents/
+.gemini/
+
+.cursorrules
+.cursorignore
+.windsurfrules
+
+CLAUDE.local.md
+AGENTS.local.md
+
+# OS-generated files
+.DS_Store
+.Trashes
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
