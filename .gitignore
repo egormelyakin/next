@@ -5,6 +5,10 @@ node_modules
 *.d.ts
 *.tsbuildinfo
 
+# Lock files (remove once cloned)
+package-lock.json
+bun.lock
+
 # AI tools misc files
 .claude/
 .cursor/
