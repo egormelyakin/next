@@ -3,10 +3,8 @@
     "dev": "bun --bun next dev",
     "build": "bun --bun next build",
     "start": "bun --bun next start",
-    "lint": "oxlint",
-    "lint:fix": "oxlint --fix",
-    "fmt": "oxfmt",
-    "fmt:check": "oxfmt --check"
+    "check": "bun tsc --noEmit && bun oxfmt --check && bun oxlint",
+    "fmt": "bun oxlint --fix && bun oxfmt"
   },
   "dependencies": {
     "class-variance-authority": "latest",

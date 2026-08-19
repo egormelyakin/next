@@ -7,10 +7,8 @@ Use **Bun** instead of **Node.js** and **npm**:
 - Use `bun add --dev [package]` to add a package as a dev dependency
 - Use `bun run [script]` to run a script:
   - `bun run build` - create an optimized production build of the application
-  - `bun run lint` - print linting issues
-  - `bun run lint:fix` - fix linting issues
-  - `bun run fmt` - format the codebase
-  - `bun run fmt:check` - print formatting issues
+  - `bun run check` - run `bun tsc --noEmit` + `bun oxfmt --check` + `bun oxlint`
+  - `bun run fmt` - run `bun oxlint --fix` + `bun oxfmt`
 
 Use **Shadcn UI**:
 
