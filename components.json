@@ -3,13 +3,7 @@
   "style": "base-mira",
   "rsc": false,
   "tsx": true,
-  "tailwind": {
-    "config": "",
-    "css": "src/app/globals.css",
-    "baseColor": "taupe",
-    "cssVariables": true,
-    "prefix": ""
-  },
+  "tailwind": { "config": "", "css": "src/app/globals.css", "baseColor": "taupe", "cssVariables": true, "prefix": "" },
   "aliases": {
     "components": "components",
     "utils": "lib/utils",
