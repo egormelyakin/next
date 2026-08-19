@@ -9,17 +9,23 @@
     "fmt:check": "oxfmt --check"
   },
   "dependencies": {
-    "next": "latest"
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "lucide-react": "latest",
+    "next": "latest",
+    "shadcn": "latest",
+    "tailwind-merge": "latest",
+    "tw-animate-css": "latest"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "latest",
     "@types/bun": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "typescript": "latest",
     "oxfmt": "latest",
     "oxlint": "latest",
     "postcss": "latest",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
