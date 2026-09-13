@@ -6,7 +6,7 @@
   "tailwind": { "config": "", "css": "src/app/globals.css", "baseColor": "taupe", "cssVariables": true, "prefix": "" },
   "aliases": {
     "components": "components",
-    "utils": "lib/utils",
+    "utils": "cn",
     "ui": "components/ui",
     "lib": "lib",
     "hooks": "hooks"
