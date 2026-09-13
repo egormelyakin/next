@@ -10,11 +10,14 @@
     "@base-ui/react": "latest",
     "class-variance-authority": "latest",
     "clsx": "latest",
+    "cookies-next": "latest",
     "lucide-react": "latest",
     "next": "latest",
     "shadcn": "latest",
     "tailwind-merge": "latest",
-    "tw-animate-css": "latest"
+    "tw-animate-css": "latest",
+    "zod": "latest",
+    "zustand": "latest"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "latest",
