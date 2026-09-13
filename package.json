@@ -9,12 +9,11 @@
   "dependencies": {
     "@base-ui/react": "latest",
     "class-variance-authority": "latest",
-    "clsx": "latest",
+    "cn": "latest",
     "cookies-next": "latest",
     "lucide-react": "latest",
     "next": "latest",
     "shadcn": "latest",
-    "tailwind-merge": "latest",
     "tw-animate-css": "latest",
     "zod": "latest",
     "zustand": "latest"
