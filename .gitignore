@@ -2,7 +2,7 @@
 node_modules
 .next
 
-*.d.ts
+next-env.d.ts
 *.tsbuildinfo
 
 # Lock files (remove once cloned)
